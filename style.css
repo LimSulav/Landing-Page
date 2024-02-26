@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    border: 0;
+}
+/* This is header section */
+.sec-one{
+    background-color: rgb(35, 211, 35);
+    /* position: fixed; This is not correct */ 
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    max-height: 800px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    border-radius: 50%;
+}
+/* This is the intro section */
+.left-sec-one{
+    margin-left: 390px; 
+    margin-right: auto;
+}
+.right-sec-one{
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+}
+.left-right{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*title, para, and button*/
+.intro-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+.intro-p{
+    margin-top: -30px;
+}
+.b1{
+    margin-top: -30px;
+    border-radius: 5px;
+    background-color: #2196f3;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 700;
+    border: 0px;
+}
+/* Section 2 */
+.main-title{
+    text-align: center;
+}
