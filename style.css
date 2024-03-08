@@ -1,10 +1,10 @@
 body{
     margin: 0;
-    border: 0;
+    border: 0; 
 }
 /* This is header section */
 .sec-one{
-    background-color: rgb(35, 211, 35);
+    background-color: rgb(22, 207, 22);
     /* position: fixed; This is not correct */ 
     top: 0;
     left: 0;
@@ -13,6 +13,7 @@ body{
     max-height: 800px;
 }
 .header{
+    background-color: #00964E;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -45,6 +46,7 @@ a{
 }
 /*title, para, and button*/
 .intro-title{
+    color: #004B75;
     font-size: 40px;
     font-weight: 800;
 }
@@ -61,6 +63,98 @@ a{
     border: 0px;
 }
 /* Section 2 */
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
 .main-title{
+    text-align: center;
+    color: blue;
+}
+main img{
+    max-height: 100%;
+    max-width: 100%;
+    border: pink solid 4px;
+}
+main p{
+    text-align: center;
+}
+.Rose1, .Rose2, 
+.Rose3, .Rose4{
+    height: 450px;
+    width: 300px;
+}
+/* Quote section */
+.sec-quote{
+    background-color: beige;
+    /* height: 500px; */ 
+}
+.quote{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+   
+}
+.quote p{
+    color: green;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+.Rosy{
+    display:  flex;
+    justify-content: flex-end;
+    margin-top: -5px;
+    margin-right: 250px;
+}
+/* Sign up section */
+.Sign-container{
+   height: 500px;
+   margin: 0;
+}
+.container{
+    background-color: rgb(0, 140, 255); 
+    background-clip: content-box, padding-box;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border-radius: 20px;
+    padding: 200px 400px;
+}
+.cont-left{
+    display: inline-block;
+}
+.cont-right{
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+.container h5{
+    margin-top: -20px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+.container p{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.container button{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* Footer */
+footer{
+    background-color:#A3AF9E;
+    border: 0;
+    margin: 0;
+    padding: 10px;
+}
+footer p{
     text-align: center;
 }
